@@ -23,6 +23,17 @@
         }]
     }
 }
+
+  watch: {
+    scripts: {
+        files: ['sass/*.sass'],
+        tasks: ['sass'],
+        options: {
+            spawn: false,
+        },
+    }
+}
+
   });
   // Load the plugins tasks
 
